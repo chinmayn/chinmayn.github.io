@@ -13,6 +13,7 @@ Prior to AWS, I worked at Applied Materials as a product manager in EdTech. Befo
 
 In my spare time, I like to read, keep up with the latest in AI, listen to new music and play with my dog.
 
+
 ### Contact me
 
 You can find me on Twitter @chinmayn
