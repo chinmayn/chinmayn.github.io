@@ -11,10 +11,8 @@ Previously, I worked as a Senior Product Manager at Amazon Web Services in Train
 
 Prior to AWS, I worked at Applied Materials as a product manager in EdTech. Before embarking on a tech career, I completed my PhD at Stanford University working on energy materials for solar cells and hydrogen storage applications. 
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+In my spare time, I like to read, keep up with the latest in AI, listen to new music and play with my dog.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+You can find me on Twitter @chinmayn
