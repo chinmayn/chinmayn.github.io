@@ -11,7 +11,7 @@ Previously, I worked as a Senior Product Manager at Amazon Web Services in Train
 
 Prior to AWS, I worked at Applied Materials as a product manager in EdTech. Before embarking on a tech career, I completed my PhD at Stanford University working on energy materials for solar cells and hydrogen storage applications. 
 
-In my spare time, I like to read, keep up with the latest in AI, listen to new music and play with my daughter and also my dog.
+In my spare time, I like to read, keep up with the latest in AI, listen to new music.
 
 
 ### Contact me
