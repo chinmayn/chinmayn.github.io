@@ -16,7 +16,7 @@ Essays about movies, books, TV shows, and other stories — what they reveal, ho
 <div class="posts">
   {% assign tagged_posts = site.posts | where_exp:"post","post.tags contains 'pop-culture'" %}
   {% for post in tagged_posts %}
-    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
   {% endfor %}
 </div>
 
