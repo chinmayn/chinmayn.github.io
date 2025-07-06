@@ -14,7 +14,7 @@ Insights, frameworks, and explorations at the intersection of technology, produc
 Essays about movies, books, TV shows, and other stories — what they reveal, how they linger, and why they matter.
 
 <div class="posts">
-  {% assign tagged_posts = site.posts | where_exp:"post","post.tags contains 'tech'" %}
+  {% assign tagged_posts = site.posts | where_exp:"post","post.tags contains 'pop-culture'" %}
   {% for post in tagged_posts %}
     <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
   {% endfor %}
