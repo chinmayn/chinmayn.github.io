@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /blog/
 title: Welcome to my blog!
 ---
 Hi! I write about things that fascinate me — from deep dives into technology and product strategy to essays on the stories and ideas that shape our culture.
