@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Welcome to my blog!
 ---
-Hi! I write about things that fascinate me — from deep dives into technology and product strategy to thoughtful essays on the stories and ideas that shape our culture.
+Hi! I write about things that fascinate me — from deep dives into technology and product strategy to essays on the stories and ideas that shape our culture.
 
 ## 📌 Technical & Product Writing
 Insights, frameworks, and explorations at the intersection of technology, product management, and real-world impact.
