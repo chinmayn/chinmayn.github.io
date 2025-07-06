@@ -13,7 +13,18 @@ Insights, frameworks, and explorations at the intersection of technology, produc
 ## 🎥📚 Reflections & Reviews
 Essays about movies, books, TV shows, and other stories — what they reveal, how they linger, and why they matter.
 
-[Sinners - A Symphony of Resistance, Identity, and Unsettling Truths]({% post_url 2025-06-12-Sinners %})
+<div class="posts">
+  {% assign tagged_posts = site.posts | where_exp:"post","post.tags contains 'pop-culture'" %}
+  {% for post in tagged_posts %}
+    <article class="post">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
 
 ---
 
