@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "28 Years Later - An Anachronistic Reflection of a Raging Island"
-tag: pop-culture
+tags: [pop-culture, movie]
 ---
 
 >Note: This essay was co-authored with Gemini. Spoilers abound.
