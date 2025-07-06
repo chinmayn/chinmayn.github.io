@@ -6,6 +6,7 @@
 //
 
 @import "reset";
+@import "fonts";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
@@ -18,7 +19,7 @@ html {
 }
 
 body {
-	background: $white;
+	background: #f9f9f9;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -26,7 +27,9 @@ body {
 .container {
   margin: 0 auto;
   max-width: 740px;
-  padding: 0 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.05);
+  background: $white;
   width: 100%;
 }
 
@@ -211,29 +214,24 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 23px;
   font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
-    float: none;
+    justify-content: center;
     margin-top: 9px;
-    display: block;
     font-size: 16px;
   }
 
   a {
-    margin-left: 20px;
     color: $darkGray;
-    text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
   }
 }
 
