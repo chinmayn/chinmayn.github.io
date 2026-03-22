@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    {% include meta.html %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  </head>
+  <body class="tpl-shell">
+    <main class="tpl-page">
+      {{ content }}
+    </main>
+  </body>
+</html>

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Welcome to my blog!
+type: notes
+summary: "An introduction to the blog and the two main writing lanes: product/tech and cultural reflections."
+authoring: solo
 ---
 Hi! I write about things that fascinate me — from deep dives into technology and product strategy to essays on the stories and ideas that shape our culture.
 

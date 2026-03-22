@@ -1,10 +1,13 @@
 ---
 layout: post
 title: "28 Years Later - An Anachronistic Reflection of a Raging Island"
+type: reflections
 tags: [pop-culture, movie]
+summary: "A mixed but thoughtful take on 28 Years Later, from worldbuilding strengths to tonal inconsistencies."
+authoring: ai-coauthored
+ai_model: Gemini
+spoilers: true
 ---
-
->Note: This essay was co-authored with Gemini. Spoilers abound.
 
 Having immersed myself in 28 Years Later, I found it to be a film brimming with ambitious ideas and moments of genuine thought-provocation, yet ultimately hampered by an overarching inconsistency that diminished its overall impact. While the performances of the human actors were largely commendable, and certain thematic explorations resonated deeply, the film often struggled to cohere its disparate parts into a unified whole.
 

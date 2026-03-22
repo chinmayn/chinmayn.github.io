@@ -9,7 +9,7 @@ name: Chinmay Nivargi
 description: Product Manager
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/chinmayn/chinmayn.github.io/blob/a26837f42d7bbaa3f2df0b858eaae62abe05e2f4/images/firestarter.jpeg
+avatar: /images/firestarter.jpeg
 
 #
 # Flags below are optional
@@ -73,12 +73,13 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site
 exclude:
+  - _posts/*.local-backup.md
   - Gemfile
   - Gemfile.lock
   - LICENSE

@@ -5,12 +5,35 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
-  <div class="entry">
-    {{ content }}
+  {% assign authoring_label = "" %}
+  {% if page.authoring == "ai-coauthored" %}
+    {% assign authoring_label = "AI co-authored" %}
+  {% elsif page.authoring == "ai-assisted" %}
+    {% assign authoring_label = "AI-assisted draft" %}
+  {% elsif page.authoring == "solo" %}
+    {% assign authoring_label = "Human-authored" %}
+  {% endif %}
+
+  <div class="post-meta">
+    <span class="post-meta-date">Written on {{ page.date | date: "%B %e, %Y" }}</span>
+    {% if authoring_label != "" %}
+      <span class="post-pill">{{ authoring_label }}{% if page.ai_model %}: {{ page.ai_model }}{% endif %}</span>
+    {% endif %}
+    {% if page.spoilers %}
+      <span class="post-pill">Spoilers</span>
+    {% endif %}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+  {% if page.tags and page.tags.size > 0 %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+        <span class="post-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="entry">
+    {{ content }}
   </div>
 
   {% include disqus.html %}
