@@ -27,6 +27,11 @@ My personal experience with something similar was at IIT Bombay, which to its cr
 
 Starting with the Performing Arts Festival or PAF, where an end-to-end theatrical production is set up by students, from scratch, over the period of a couple of months - culminating in a 3-4 day/night sprint to use bamboo, papier mache, and duct tape to set up these elaborate sets. Late nights, hazing, and camaraderie all forged in the meantime, culminating in an amphitheater experience of joy - there is nothing quite like it.
 
+<figure class="post-figure">
+  <img src="{{ '/images/PAF--dejavu.jpg' | relative_url }}" alt="Scene from Deja Vu, PAF 2006" loading="lazy" decoding="async">
+  <figcaption>Scene from 'Deja Vu, PAF 2006'</figcaption>
+</figure>
+
 Then there is the famed Mood Indigo and Techfest college festivals, inviting participation from all over the country, featuring performances from artists all over the world. During my four years on campus, I was treated to an embarrassment of riches when it came to musical artists at Mood Indigo - a privilege that did not sink in until years later. However, beyond this lived experience, it is the ritual and process of organizing these festivals that is so unique - months of planning, self-organizing into teams, and an experience akin to running a small startup over late nights and weekends - that was invaluable.
 
 Some of my closest friendships and fondest memories that endure to this day come from these experiences we had together organizing. Some students made it a big part of their identity, and even leveraged their experience into jobs that rewarded the hustle, execution, and problem-solving that these ambiguous, unstructured environments forged.
